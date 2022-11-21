@@ -1,0 +1,254 @@
+/*
+Classes use the [.]
+#669DB3FF,60%,white, lightcoral 40%
+*/
+body{
+    height: 100px;
+    background: #44A08D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: monospace;
+    
+}
+
+.container{
+    background-color: #F0F6F7FF;
+    color: gray;
+    
+}
+header::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+nav{
+    text-align: center;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+    padding: 10px 0;
+    position: relative;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: #669DB3FF;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+nav a:hover{
+    color: black;
+}
+
+nav a::before{
+     content:"";
+     display: block;
+     height:5px;
+     width:100%;
+     background-color: #669DB3FF;
+     position: absolute;
+     top: 0;
+     width: 0%;
+     transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
+
+#heading{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    padding:0px;
+    margin: 20px;
+}
+
+
+#container_sociallinks{
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+}
+
+ul.social{
+    list-style: none;
+    min-width: 400px;
+    padding-top: 40px;
+}
+
+ul.social li{
+    display: inline;
+}
+
+.links{
+    width: 60px;
+    border-radius: 50%;   
+    transition: ease-in-out 250ms;
+}
+
+.links:hover{
+    background-color: white;
+    width: 65px;
+    transition: ease-in-out 250ms;
+}
+.container2_aboutme{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 3rem;
+    margin-top: 3rem;
+    text-align: center;
+
+}
+h1{
+    color: #669DB3FF;
+    font-size: 5rem;
+    letter-spacing: 10px;
+}
+
+.aboutme_description{
+    display: inline-block;
+    background-color: white;
+    padding: 2rem 3rem;
+    margin-top: 25px;
+
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 10px;
+    font-size:15px;
+    padding: 1rem 4rem;
+    margin-top: 5rem;
+}
+
+
+.submit_button{
+    display: inline-block;
+    background-color: white;
+    text-decoration: none;
+    border: 10px;
+    font-size: 15px;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+
+}
+
+.contactMe_form{
+    margin: 0 auto;
+    padding: 0 3rem;
+    margin-top: 3rem;
+    text-align: center;
+
+}
+
+.contactme_heading{
+    display: inline-block;
+    color: black;
+    background-color: white;
+    padding: 20px;
+
+}
+
+#fullNameInfo{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border-color: black;
+    border-width: 2px;
+    width: 15rem;
+}
+
+#emailAddress{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border-color: black;
+    border-width: 2px;
+    width: 15rem;
+}
+
+#phoneNumber{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border-color: black;
+    border-width: 2px;
+    width: 15rem;
+}
+
+form label{
+    display: inline-block;
+  background-color: white;  
+  font-size: 20px;
+    padding: 10px;
+    border: black;
+}
+
+#contact_btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 10px;
+    font-size:15px;
+    padding: 1rem 4rem;
+    margin-top: 5rem;
+    border-radius: 10%;
+}
+
+span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+span:after{
+    content: ".\00bb";
+    position:absolute;
+    opacity: 0;
+    top:0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#contact_btn:hover span{
+    padding-right: 25px;
+
+}
+
+#contact_btn:hover span:after{
+    opacity: 1;
+    right: 0;
+    transition: 0.5s;
+}
+
+#contact_textArea{
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.intro{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 100px;
+    color: white;
+
+}

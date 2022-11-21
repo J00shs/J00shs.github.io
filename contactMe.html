@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Me</title>
+</head>
+<body>
+    <div class = "container">
+        <header>
+            <nav>
+                <ul>
+                <li style="padding-right:2.5rem;"><a href="./index.html">Homepage</a></li>
+            </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="contactMe_form">
+    <h2 class = "contactme_heading">Let's get to know each other!</h2>
+    <form action="" method="">
+    <label for = "fullName">Full Name</label>
+        <input type="text" placeholder = "Enter Full Name here"name="fullName" id="fullNameInfo">
+        <br>
+        <br>
+
+        <label for="emailAddress" >Email Address</label>
+        <input type="email" name="emailAddress" id="emailAddress" placeholder="Enter Email Here">
+        <br>
+        <br>
+
+        <label for="phoneNumber">Phone Number</label>
+        <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="Enter number here. [123-456-7890]" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        <br>
+        <br>
+        
+        <textarea name="userDescription" placeholder="Tell me about yourself" id="contact_textArea" cols="40" rows="10"></textarea>
+        <br>
+        <br>
+
+        <button type = "submit" id="contact_btn" ><span>Submit Information</span></button>
+        <!--input type="text" name="Name" id="">
+        <button type= "submit">Submit Information</button>
+        -->
+     </form>
+    </div>
+</body>
+</html>
