@@ -3,10 +3,11 @@ Classes use the [.]
 #669DB3FF,60%,white, lightcoral 40%
 */
 body{
-    height: 100px;
+    
+
     background: #44A08D;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /*background: -webkit-linear-gradient(to right, #093637, #44A08D); */ /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, #093637, #44A08D);*/ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     font-family: monospace;
     
@@ -27,16 +28,18 @@ nav{
 }
 
 nav ul{
+    text-align: center;
     margin: 0;
     padding: 0;
+    padding-right: 10%;
     list-style: none;
 }
 
 nav li{
     display: inline-block;
-    margin-left: 70px;
+    margin-left: 15%;
     padding-top: 25px;
-    padding: 10px 0;
+    padding: 5px 0px;
     position: relative;
     
 }
@@ -86,7 +89,7 @@ nav a:hover::before{
 
 ul.social{
     list-style: none;
-    min-width: 400px;
+    min-width: 200px;
     padding-top: 40px;
 }
 
@@ -102,7 +105,7 @@ ul.social li{
 
 .links:hover{
     background-color: white;
-    width: 65px;
+    width: 10px;
     transition: ease-in-out 250ms;
 }
 .container2_aboutme{
@@ -114,8 +117,8 @@ ul.social li{
 
 }
 h1{
-    color: #669DB3FF;
-    font-size: 5rem;
+    color: white;
+    font-size: 50px;
     letter-spacing: 10px;
 }
 
@@ -248,7 +251,7 @@ span:after{
     display: flex;
     justify-content: center;
     margin-top: 100px;
-    font-size: 100px;
+    font-size: 40px;
     color: white;
 
 }
